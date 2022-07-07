@@ -65,14 +65,29 @@
 
 /* Стилі до 4 секції */
 
-.analytics {
-    padding: 0 32px;
-}
+.analytics__header {
+    text-align: center;
+    color: var(--secondcolor);
+    font-family: "Hind", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .analytics__title {
+    font-size: 47px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    color: #2c2e38;
+    text-align: center;
+  } 
 
-.container {
-    padding-top: 115px;
-    padding-bottom: 40px;
-}
+  .analytics__subtitle {
+    text-align: center;
+    color: var(--thirdcolor);
+    margin-top: 15px;
+    width: 100%;
+    font-size: 19px;
+  }
 
 .analytics__picture {
     margin-top: 60px;
@@ -87,7 +102,6 @@
     font-family: "object-fit:cover";
     margin-top: 55px;
 }
-
 
 
 .analytics__icons {
