@@ -32,10 +32,10 @@
 }
 
 /* Стилі до 8 секції */
-img {
+/* img {
     width: 100px;
-    height: 100px;
-}
+    height: 100px; }*/
+
 
 
 
@@ -47,7 +47,7 @@ img {
     min-height: 1130px;
     background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
 }
-.pricing__header, .analytics__header {
+.pricing__header, .analytics__header, .management__header {
     text-align: center;
     color: var(--secondcolor);
     font-family: 'Hind', sans-serif;
@@ -55,14 +55,14 @@ img {
     font-weight: 700;
     width: 100%;
 }
-.pricing__title, .analytics__title {
+.pricing__title, .analytics__title, .management__title {
     font-size: 56px;
     text-align: center;
     color: var(--firstcolor);
     margin-top: 20px;
     width: 100%;
 }
-.pricing__subtitle, .analytics__subtitle {
+.pricing__subtitle, .analytics__subtitle, .management__subtitle {
     text-align: center;
     color: var(--thirdcolor);
     margin-top: 15px;
@@ -153,4 +153,25 @@ img {
     background: var(--secondcolor);
     color: #fff;
     cursor: pointer;
+}
+
+/*стилі до 2 секції*/
+.management {
+    display: flex;
+    padding: 40px;
+}
+
+.management__image {
+    border-radius: inherit;
+    
+}
+.management__check-mark {
+    width: 20px;
+    height: 20px;
+}
+.management__bottom {
+    width: 165px;
+    height: 50px;
+    border: 2px solid ;
+    padding: 13px 34px;
 }
