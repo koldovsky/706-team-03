@@ -20,8 +20,7 @@
 /* Вище код не рухати вставляти свій нище*/
 
 
-/* Стилі до 8 секції */
-
+/* Стилі до 4 секції */
 .analytics__picture-img {
     border-radius: inherit;
     width: 100%;
@@ -31,6 +30,14 @@
     font-family: "object-fit:cover";
     margin-top: 55px;
 }
+
+/* Стилі до 8 секції */
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
 
 
 /* Ivanyshyn Svyatoslav */
@@ -83,7 +90,7 @@
     align-items: center;
 }
 
-img {
+.pricing__img {
     width: 100px;
     height: 100px;
 }
