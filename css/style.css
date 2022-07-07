@@ -17,6 +17,11 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+/* Вище код не рухати вставляти свій нище*/
+
+
+
+
 
 
 /* Ivanyshyn Svyatoslav */
@@ -26,7 +31,7 @@
     min-height: 1130px;
     background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
 }
-.pricing__header {
+.pricing__header, .analytics__header {
     text-align: center;
     color: var(--secondcolor);
     font-family: 'Hind', sans-serif;
@@ -34,14 +39,14 @@
     font-weight: 700;
     width: 100%;
 }
-.pricing__title {
+.pricing__title, .analytics__title {
     font-size: 56px;
     text-align: center;
     color: var(--firstcolor);
     margin-top: 20px;
     width: 100%;
 }
-.pricing__subtitle {
+.pricing__subtitle, .analytics__subtitle {
     text-align: center;
     color: var(--thirdcolor);
     margin-top: 15px;
@@ -114,7 +119,6 @@ img {
     font-weight: 400;
     font-family: 'Hind', sans-serif;
 }
-
 
 .pricing__btn {
     width: 165px;
