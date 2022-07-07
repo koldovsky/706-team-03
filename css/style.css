@@ -20,7 +20,47 @@
     padding: 0 15px;
 }
 
+@media (max-width: 992px) {
+    .container {
+        max-width: 990px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 765px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
 /* Вище код не рухати вставляти свій нище*/
+
+
+
+/*стилі до 2 секції*/
+.management {
+    display: flex;
+    padding: 40px;
+}
+
+.management__image {
+    border-radius: inherit;
+    
+}
+.management__check-mark {
+    width: 20px;
+    height: 20px;
+}
+.management__bottom {
+    width: 165px;
+    height: 50px;
+    border: 2px solid ;
+    padding: 13px 34px;
+}
+
 
 
 /* Стилі до 4 секції */
@@ -130,6 +170,17 @@ img {
 
 .pricing__header,
 .analytics__header {
+@media (max-width: 992px) {
+    .pricing__plans {
+        padding: 90px 0 100px 0;
+    }
+}
+@media (max-width: 768px) {
+    .pricing__plans {
+        padding: 60px 0 70px 0;
+    }
+}
+.pricing__header {
     text-align: center;
     color: var(--secondcolor);
     font-family: 'Hind', sans-serif;
@@ -140,6 +191,13 @@ img {
 
 .pricing__title,
 .analytics__title {
+@media (max-width: 576px) {
+    .pricing__header {
+        font-size: 12px;
+    }
+}
+
+.pricing__title {
     font-size: 56px;
     text-align: center;
     color: var(--firstcolor);
@@ -149,6 +207,24 @@ img {
 
 .pricing__subtitle,
 .analytics__subtitle {
+@media (max-width: 992px) {
+    .pricing__title {
+        font-size: 48px;
+    }
+}
+@media (max-width: 768px) {
+    .pricing__title {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .pricing__title {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+}
+.pricing__subtitle {
     text-align: center;
     color: var(--thirdcolor);
     margin-top: 15px;
@@ -157,6 +233,18 @@ img {
     font-family: 'Hind', sans-serif;
 }
 
+@media (max-width: 768px) {
+    .pricing__subtitle {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .pricing__subtitle {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
 .pricing__wrapper {
     margin-top: 60px;
     display: grid;
@@ -165,12 +253,48 @@ img {
     column-gap: 25px;
 }
 
+/* @media (max-width: 992px) {
+    .pricing__wrapper {
+        grid-template-rows: minmax(auto, 560px);
+    }
+} */
+
+@media (max-width: 768px) {
+    .pricing__wrapper {
+        margin-top: 40px;
+        grid-template-columns: minmax(auto, 370px);
+        grid-template-rows: repeat(3,minmax(auto, 520px));
+        row-gap: 15px;
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .pricing__wrapper {
+        grid-template-columns: minmax(auto, 280px);
+        grid-template-rows: repeat(3,minmax(auto, auto));
+    }
+}
 .pricing__card {
     background: #ffffff;
     padding: 50px 40px;
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
-    border-radius: 6px;
+    border-radius: 6px;  
+}
 
+@media (max-width: 992px) {
+    .pricing__card {
+        padding: 25px 25px;
+    }
+}
+@media (max-width: 768px) {
+    .pricing__card {
+        padding: 5px 25px;
+    }
+}
+@media (max-width: 576px) {
+    .pricing__card {
+        padding: 15px 25px;
+    }
 }
 
 .pricing__card-items {
@@ -183,12 +307,24 @@ img {
     width: 100px;
     height: 100px;
 }
+@media (max-width: 576px) {
+    .pricing__img {
+        width: 70px;
+        height: 70px;
+    }
+}
 
 .pricing__card-items_title {
     margin-top: 20px;
     font-size: 21px;
     font-family: 'Hind', sans-serif;
     color: var(--fourcolor);
+}
+@media (max-width: 576px) {
+    .pricing__card-items_title{
+        margin-top: 10px;
+        font-size: 20px;
+    }
 }
 
 .pricing__card-items_price {
@@ -199,6 +335,12 @@ img {
 
 .pricing__card-items_price_blue {
     color: var(--secondcolor);
+}
+@media (max-width: 576px) {
+    .pricing__card-items_price {
+        margin-top: 15px;
+        font-size: 40px;
+    }
 }
 
 .pricing__card-items_descr1 {
@@ -219,6 +361,11 @@ img {
     font-family: 'Hind', sans-serif;
     color: var(--thirdcolor);
 }
+@media (max-width: 576px) {
+    .pricing__card-items_descr1, .pricing__card-items_descr2, .pricing__card-items_descr3 {
+        font-size: 15px;
+    }
+}
 
 .divider {
     width: 100%;
@@ -226,6 +373,11 @@ img {
     margin: 15px 0;
     font-weight: 400;
     font-family: 'Hind', sans-serif;
+}
+@media (max-width: 576px) {
+    .divider {
+        margin: 10px 0;
+    }
 }
 
 .pricing__btn {
@@ -247,3 +399,11 @@ img {
     color: #fff;
     cursor: pointer;
 }
+@media (max-width: 576px) {
+    .pricing__btn {
+        width: 150px;
+        height: 46px;
+        padding: 10px 20px;
+    }
+}
+
