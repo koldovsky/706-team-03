@@ -57,7 +57,7 @@
     column-gap: 25px;
 }
 .pricing__card {
-    /* background: silver; */
+    background: #ffffff;
     padding: 50px 40px;
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
     border-radius: 6px;
