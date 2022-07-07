@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+
 :root {
     --firstcolor: rgb(44, 46, 56);
     --secondcolor: rgb(3, 135, 252);
-    --thirdcolor:  rgb(111, 116, 144);
+    --thirdcolor: rgb(111, 116, 144);
     --fourcolor: rgb(90, 94, 117);
 }
+
 * {
     font-family: 'Work Sans', 'Hind', sans-serif;
     box-sizing: border-box;
@@ -17,10 +19,25 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
 /* Вище код не рухати вставляти свій нище*/
 
 
 /* Стилі до 4 секції */
+
+.analytics {
+    padding: 0 32px;
+}
+
+.container {
+    padding-top: 115px;
+    padding-bottom: 40px;
+}
+
+.analytics__picture {
+    margin-top: 60px;
+}
+
 .analytics__picture-img {
     border-radius: inherit;
     width: 100%;
@@ -30,6 +47,69 @@
     font-family: "object-fit:cover";
     margin-top: 55px;
 }
+
+
+
+.analytics__icons {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 115px;
+
+}
+
+.analytics__icons-block {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+}
+
+.analytics__icons-items {
+    flex-basis: 25%;
+    max-width: 25%;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.analytics__icons-items-logo {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.analytics__icons-items-title {
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    position: relative;
+    max-width: 100%;
+    text-align: end;
+}
+
+.analytics__icons-items-text {
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: 0;
+    position: relative;
+    max-width: 100%;
+    text-align: end;
+}
+
+
 
 /* Стилі до 8 секції */
 img {
@@ -47,7 +127,9 @@ img {
     min-height: 1130px;
     background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
 }
-.pricing__header, .analytics__header {
+
+.pricing__header,
+.analytics__header {
     text-align: center;
     color: var(--secondcolor);
     font-family: 'Hind', sans-serif;
@@ -55,14 +137,18 @@ img {
     font-weight: 700;
     width: 100%;
 }
-.pricing__title, .analytics__title {
+
+.pricing__title,
+.analytics__title {
     font-size: 56px;
     text-align: center;
     color: var(--firstcolor);
     margin-top: 20px;
     width: 100%;
 }
-.pricing__subtitle, .analytics__subtitle {
+
+.pricing__subtitle,
+.analytics__subtitle {
     text-align: center;
     color: var(--thirdcolor);
     margin-top: 15px;
@@ -70,13 +156,15 @@ img {
     font-size: 19px;
     font-family: 'Hind', sans-serif;
 }
+
 .pricing__wrapper {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: repeat(3,minmax(auto, 370px));
+    grid-template-columns: repeat(3, minmax(auto, 370px));
     grid-template-rows: minmax(auto, 620px);
     column-gap: 25px;
 }
+
 .pricing__card {
     background: #ffffff;
     padding: 50px 40px;
@@ -84,6 +172,7 @@ img {
     border-radius: 6px;
 
 }
+
 .pricing__card-items {
     display: flex;
     flex-direction: column;
@@ -107,6 +196,7 @@ img {
     font-size: 50px;
     font-family: 'Work Sans', sans-serif;
 }
+
 .pricing__card-items_price_blue {
     color: var(--secondcolor);
 }
@@ -117,11 +207,13 @@ img {
     font-family: 'Hind', sans-serif;
     color: var(--thirdcolor);
 }
+
 .pricing__card-items_descr2 {
     font-size: 17px;
     font-family: 'Hind', sans-serif;
     color: var(--thirdcolor);
 }
+
 .pricing__card-items_descr3 {
     font-size: 17px;
     font-family: 'Hind', sans-serif;
@@ -149,6 +241,7 @@ img {
     font-family: 'Hind', sans-serif;
     font-weight: 700;
 }
+
 .pricing__btn:hover {
     background: var(--secondcolor);
     color: #fff;
