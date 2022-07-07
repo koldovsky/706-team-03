@@ -20,6 +20,30 @@
 /* Вище код не рухати вставляти свій нище*/
 
 
+
+/*стилі до 2 секції*/
+.management {
+    display: flex;
+    padding: 40px;
+}
+
+.management__image {
+    border-radius: inherit;
+    
+}
+.management__check-mark {
+    width: 20px;
+    height: 20px;
+}
+.management__bottom {
+    width: 165px;
+    height: 50px;
+    border: 2px solid ;
+    padding: 13px 34px;
+}
+
+
+
 /* Стилі до 4 секції */
 .analytics__picture-img {
     border-radius: inherit;
@@ -30,13 +54,6 @@
     font-family: "object-fit:cover";
     margin-top: 55px;
 }
-
-/* Стилі до 8 секції */
-/* img {
-    width: 100px;
-    height: 100px; }*/
-
-
 
 
 
@@ -155,23 +172,3 @@
     cursor: pointer;
 }
 
-/*стилі до 2 секції*/
-.management {
-    display: flex;
-    padding: 40px;
-}
-
-.management__image {
-    border-radius: inherit;
-    
-}
-.management__check-mark {
-    width: 20px;
-    height: 20px;
-}
-.management__bottom {
-    width: 165px;
-    height: 50px;
-    border: 2px solid ;
-    padding: 13px 34px;
-}
