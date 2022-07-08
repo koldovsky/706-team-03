@@ -43,11 +43,15 @@
 
 /*стилі до 2 секції*/
 .management {
+    padding-top: 150px;
+    padding-bottom: 75px;
+}
+.website_management-wraper {
     display: flex;
 }
 
 .management__header{
-    text-align: center;
+    text-align: left;
     color: var(--secondcolor);
     font-family: 'Hind', sans-serif;
     font-size: 13px;
@@ -56,13 +60,13 @@
 }
 .management__title{
     font-size: 56px;
-    text-align: center;
+    text-align: left;
     color: var(--firstcolor);
     margin-top: 20px;
     width: 100%;
 }
 .management__subtitle{
-    text-align: center;
+    text-align: left;
     color: var(--thirdcolor);
     margin-top: 15px;
     width: 100%;
@@ -77,6 +81,7 @@
 
 .management__img {
     width: 100%;
+    height: 100%;
 }
 .management__wrapper {
     width: 50%;
@@ -99,7 +104,8 @@
     text-decoration: none;
     font-size: 14px;
     color: white;
-    font-family: Haid sans-serif
+    font-family: Haid sans-serif;
+    margin-top: 20px;
 }
 .management__check-box {
     list-style-type: none;
