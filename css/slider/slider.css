@@ -21,13 +21,16 @@
     justify-content: center;
     align-items: center;
     column-gap: 30px;
-    width: 100%;
-    height: 100%;
 }
 
 .slider-item{
     height: auto;
-    width: 200px;
+    width: 25%;
+    padding: 20px 40px;
     margin-bottom: 15px;
     background-color: rgb(249, 252, 255);
+}
+
+.slider__left-arrow , .slider__right-arrow{
+    width: 40px;
 }
