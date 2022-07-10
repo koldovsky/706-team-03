@@ -55,18 +55,18 @@
 .analytics__icons-block {
   margin: 0 -7.5px;
   display: flex;
-  justify-content: center;
+  
 }
 
 .analytics__icons-logo {
   display: flex;
   justify-content: flex-start;
-  width: 70px;
-  height: 70px;
 }
+
 .analytics__icons-items {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 7.5px;
 }
 .analytics__icons-items-title {
