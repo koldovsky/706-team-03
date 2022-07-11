@@ -6,6 +6,7 @@
 @import url(section_9/contacts.css);
 @import url(footer/footer.css);
 @import url(section_04/analytics.css);
+@import url(section_02/management.css);
 
 
 :root {
@@ -47,85 +48,6 @@
 /* Вище код не рухати вставляти свій нище*/
 
 /* Імпорти своїх стилів підключати наверху файла і давати назву блоку/секції */
-
-/*стилі до 2 секції*/
-.management {
-    padding-top: 150px;
-    padding-bottom: 75px;
-}
-.website_management-wraper {
-    display: flex;
-}
-
-.management__header{
-    text-align: left;
-    color: var(--secondcolor);
-    font-family: 'Hind', sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    width: 100%;
-}
-.management__title{
-    font-size: 56px;
-    text-align: left;
-    color: var(--firstcolor);
-    margin-top: 20px;
-    width: 100%;
-}
-.management__subtitle{
-    text-align: left;
-    color: var(--thirdcolor);
-    margin-top: 15px;
-    width: 100%;
-    font-size: 19px;
-    font-family: "Hind", sans-serif;
-}
-.management__image {
-    border-radius: inherit;
-    width: 50%;
-    padding-right: 15px;
-}
-
-.management__img {
-    width: 100%;
-    height: 100%;
-}
-.management__wrapper {
-    width: 50%;
-    padding-left: 15px;
-}
-.management__check-mark {
-    width: 20px;
-    height: 20px;
-    padding-bottom: none;
-    margin-right: 8px;
-}
-
-.management__bottom {
-    width: 165px;
-    height: 50px;
-    border: none;
-    padding: 13px 34px;
-    background-color: rgb(3, 135, 252);
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-    font-family: Haid sans-serif;
-    margin-top: 20px;
-}
-.management__check-box {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.management__check-list {
-    padding: 0 12px;
-    margin-bottom: 16px;
-}
-
-
 
 
 /* Стилі до 8 секції */
