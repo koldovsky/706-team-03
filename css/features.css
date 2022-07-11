@@ -1,6 +1,5 @@
 .features{
-    margin: 0 160px;
-    padding: 70px 15px 150px 15px;
+    margin: 70px 160px 150px;
 }
 
 .features__heading{
@@ -31,7 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .features__container-card{
@@ -39,7 +38,7 @@
     padding: 25px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 8px 3px rgba(44, 46, 56, 0.149);
+    box-shadow: 0 0 8px 3px rgba(44, 46, 56, 0.149);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;   
