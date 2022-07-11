@@ -1,0 +1,36 @@
+.slider-companies{
+    margin: 0 160px;
+    padding: 120px 15px 75px 15px;
+}
+
+.subtitle{
+    text-align: center;
+    color: var(--thirdcolor);
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+
+.subtitle__colored-text{
+    color: var( --secondcolor);
+}
+
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.slider-item{
+    height: auto;
+    width: 25%;
+    padding: 20px 40px;
+    margin-bottom: 15px;
+    background-color: rgb(249, 252, 255);
+}
+
+.slider__left-arrow , .slider__right-arrow{
+    width: 40px;
+}

@@ -1,0 +1,100 @@
+.testimonials {
+    padding: 175.5px 0 75px 0;
+    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
+}
+
+.section-header {
+    text-align: center;
+    color: var(--secondcolor);
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 56px;
+    text-align: center;
+    color: var(--firstcolor);
+    margin-top: 20px;
+    width: 100%;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--thirdcolor);
+    margin-top: 15px;
+    width: 100%;
+    font-size: 19px;
+    font-family: 'Hind', sans-serif;
+}
+
+.testimonians__wrapper {
+    margin-top: 60px;
+    display: grid;
+}
+
+.testimonials__item {
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 35px 46px 35px 46px;
+    box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
+    border-radius: 6px;
+}
+
+.testimonials__item-text {
+    text-align: left;
+    color: var(--thirdcolor);
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    word-wrap: break-word;
+}
+
+.testimonials__item-author {
+    margin-top: 20px;
+}
+
+.testimonials__item-author-photo {
+    margin: 7.5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testimonials__item-author-name {
+    font-size: 22px;
+    text-align: left;
+    color: var(--firstcolor);
+    margin-top: 7.5px;
+    width: 100%;
+}
+
+.testimonials__item-author-position {
+    text-align: left;
+    color: var(--thirdcolor);
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Hind', sans-serif;
+    word-wrap: break-word;
+}
+
+.trial {
+    padding: 75px 47px 125px 47px;
+    margin-left: -15px;
+    margin-right: -15px;
+    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgb(243, 244, 248);
+}
+
+.trial-container {
+    background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17b96940c52a00227664c6_optimized_1699.webp") 50.94% 43.06% / cover no-repeat;
+    border-radius: 6px;
+}
+
+.trial .section-title {
+    color: #ffffff;
+}
+
+.trial .section-subtitle {
+    color: #ffffff;
+}
