@@ -2,12 +2,18 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 @import url(slider/slider.css);
 @import url(features/features.css);
+@import url(section_02/management.css);
+
+@import url(section_04/analytics.css);
+@import url(section_05/testimonials.css);
+
+
 @import url(section_8/pricing__plans.css);
 @import url(section_9/contacts.css);
 @import url(footer/footer.css);
-@import url(section_04/analytics.css);
-@import url(section_02/management.css);
-@import url(section_05/testimonials.css);
+
+
+
 
 
 :root {
