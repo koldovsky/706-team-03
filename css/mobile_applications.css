@@ -1,0 +1,8 @@
+.mobile_app_header {
+    text-align: center;
+    color: var(--secondcolor);
+    font-family: Hind, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+}
