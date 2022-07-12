@@ -1,3 +1,6 @@
+.mob_app_cotnent{
+    display: flex;
+}
 .mobile_app_header {
     text-align: center;
     color: var(--secondcolor);
@@ -9,7 +12,7 @@
 .mob__app__text__header{
     color: var(--firscolor);
     font-size: 56px;
-    width: 100px; 
+    
  }
  .mob_text{
     font-size: 19px;
