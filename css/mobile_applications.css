@@ -6,3 +6,13 @@
     font-weight: 700;
     width: 100%;
 }
+.mob__app__text__header{
+    color: var(--firscolor);
+    font-size: 56px;
+    width: 100px; 
+ }
+ .mob_text{
+    font-size: 19px;
+    color: var(--thirdcolor);
+ }
+ 
