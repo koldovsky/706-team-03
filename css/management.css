@@ -2,7 +2,7 @@
 .management {
     padding-top: 150px;
     padding-bottom: 75px;
-    background-color: rgb(243, 244, 248)
+    background-color: var(--graybackgroundcolor);
 }
 
 .website_management-wraper {
@@ -61,7 +61,7 @@
     height: 50px;
     border: none;
     padding: 13px 34px;
-    background-color: rgb(3, 135, 252);
+    background-color:var(--secondcolor);
     text-align: center;
     text-decoration: none;
     font-size: 14px;
