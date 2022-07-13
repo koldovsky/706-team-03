@@ -1,0 +1,54 @@
+header {
+    background: #0387fc;
+    height: 845px;
+}
+
+
+.big_banner_image {
+    width: 500px;
+    height: 300px;
+}
+
+.logo-header {
+    width: 155px;
+}
+
+.any-idea {
+    font-size: 50px;
+    font-family: Work-sans;
+    color: #fff;
+}
+
+
+.features {
+    color: #fff;
+    font-size: 16px;
+}
+
+.benefits {
+    color: #fff;
+    font-size: 16px;
+}
+
+.testimonials {
+    color: #fff;
+    font-size: 16px;
+}
+
+.contacts {
+    color: #fff;
+    font-size: 16px;
+}
+
+.description-about-app {
+    color: #fff;
+    font-size: 17px;
+}
+
+.buy-for-only {
+    color: #fff;
+}
+
+.no-credit-card {
+    color: #fff;
+}
