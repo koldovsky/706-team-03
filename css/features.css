@@ -9,12 +9,15 @@
     text-align: center;
     color: var(--secondcolor);
     font-size: 13px;
+    font-family: var(--textfont);
+    font-weight: 700;
 }
 
 .features__title{
     margin-bottom: 20px;
     text-align: center;
     color: var(--firstcolor);
+    font-family: var(--mainfont);
     font-size: 56px;
 }
 
@@ -22,8 +25,8 @@
     margin-bottom: 50px;
     text-align: center;
     color: var(--fourcolor);
+    font-family: var(--textfont);
     font-size: 19px;
-    font-family: 'Hind', sans-serif;
 }
 
 .features__container{
