@@ -14,7 +14,7 @@
     color: var(--secondcolor);
     text-align: center;
     font-size: 13px;
-    font-family: "Hind", sans-serif;
+    font-family: var(--textfont);
     font-weight: bold;
   }
   
@@ -23,14 +23,14 @@
     color: var(--firstcolor);
     text-align: center;
     font-size: 56px;
-    font-family: "Work Sans", sans-serif;
+    font-family: var(--mainfort);
   }
   .analytics__subtitle {
     margin-top: 15px;
     color: var(--thirdcolor);
     text-align: center;
     font-size: 19px;
-    font-family: "Hind", sans-serif;
+    font-family: var(--textfont);
   }
   
   .analytics__picture {
@@ -80,13 +80,13 @@
   .analytics__icons-items-title {
     text-align: center;
     font-size: 26px;
-    font-family: "Hind", sans-serif;
+    font-family: var(--textfont);
     color: var(--firstcolor);
   }
   
   .analytics__icons-items-text {
     font-size: 17px;
-    font-family: "Hind", sans-serif;
+    font-family: var(--textfont);
     color: var(--thirdcolor);
   }
   
