@@ -31,7 +31,6 @@
 
 .features__container{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
@@ -65,4 +64,27 @@
     font-size: 15px;
     font-family: 'Hind', sans-serif;
     color: var(--fourcolor);
+}
+
+@media (max-width: 991px){
+    .features{
+        margin: 50px 10px;
+    }
+
+    .features__container{
+        flex-wrap: wrap;
+    }
+
+    .features__container-card{
+        width: 400px;
+
+    }
+
+    .features__title{
+        font-size: 47px;
+    }
+
+    .features__card-heading{
+        font-size: 22px;
+    }
 }
