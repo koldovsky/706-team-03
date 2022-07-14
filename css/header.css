@@ -1,8 +1,11 @@
 header {
     background: #0387fc;
     height: 845px;
-}
-
+    background-image: 
+    linear-gradient(to right, #053beee0, rgba(24, 152, 238, 0.842)),
+    url(https://res2.weblium.site/res/5d9f40ea7889780027ffb893/5ed4012cb247d3002282a1ea_optimized_1920);
+    background-size: 2000px 1000px;
+}        
 
 .big_banner_image {
     width: 500px;
@@ -18,7 +21,6 @@ header {
     font-family: Work-sans;
     color: #fff;
 }
-
 
 .features {
     color: #fff;
@@ -51,4 +53,9 @@ header {
 
 .no-credit-card {
     color: #fff;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #ffffffcf;
 }
