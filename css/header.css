@@ -7,55 +7,80 @@ header {
     background-size: 2000px 1000px;
 }        
 
-.big_banner_image {
-    width: 500px;
-    height: 300px;
+.big__banner__image {
+    width: 600px;
+    height: 350x;
 }
 
-.logo-header {
-    width: 155px;
+/*.logo__header {
+  
 }
+*/
 
-.any-idea {
-    font-size: 50px;
-    font-family: Work-sans;
+
+.any__idea {
+    font-size: 78px;
+    font-family: 'Work-sans', sans-serif;
+    font-weight: bold;
     color: #fff;
 }
 
-.features {
-    color: #fff;
+.all__hrefs {
+    font-family: 'Hind', sans-serif;
     font-size: 16px;
+    font-weight: bold;
+    color: #ffffffcf;
+}
+
+/* .features {
+   
 }
 
 .benefits {
-    color: #fff;
-    font-size: 16px;
+    
 }
 
 .testimonials {
-    color: #fff;
-    font-size: 16px;
+    
 }
 
 .contacts {
+    
+}
+*/
+
+.description__about__app {
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
+    font-family: 'Hind', sans-serif;
+    
 }
 
-.description-about-app {
-    color: #fff;
-    font-size: 18px;
+.free__trial {
+    font-family: 'Hind', sans-serif;
+    font-size: 15.4px;
+    color: #2c2e38;
+    font-weight: bold;
+    
 }
 
-.buy-for-only {
+.buy__for__only {
     color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
 }
 
-.no-credit-card {
+.no__credit__card {
     color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
 }
 
-.link-button {
+.link__button {
     text-decoration: none;
     color: #ffffffcf;
 }
