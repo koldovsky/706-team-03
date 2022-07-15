@@ -33,6 +33,10 @@
     background-color: rgb(249, 252, 255);
 }
 
-.slider__left-arrow , .slider__right-arrow{
-    width: 40px;
+@media (max-width: 1200px){
+    .slider-companies{
+        padding: 0 40px;
+        margin: 70px auto;
+    }
+
 }

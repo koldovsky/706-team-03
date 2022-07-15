@@ -66,9 +66,10 @@
     color: var(--fourcolor);
 }
 
-@media (max-width: 991px){
+@media (max-width: 1200px){
     .features{
-        margin: 50px 10px;
+        margin: 50px auto;
+        padding: 0 40px;
     }
 
     .features__container{
