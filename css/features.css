@@ -39,7 +39,7 @@
     width: 270px;
     padding: 25px;
     margin: 10px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); he is already white */
     box-shadow: 0 0 8px 3px rgba(44, 46, 56, 0.149);
     display: flex;
     flex-wrap: wrap;
@@ -55,14 +55,14 @@
 
 .features__card-heading{
     font-size: 26px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     font-weight: bold;
     color: var(--title-color);
 }
 
 .features__card-para{
     font-size: 15px;
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     color: var(--text-color);
 }
 
