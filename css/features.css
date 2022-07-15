@@ -24,7 +24,7 @@
 .features__subtitle{
     margin-bottom: 50px;
     text-align: center;
-    color: var(--button-color);
+    color: var(---text-color);
     font-family: var(--textfont);
     font-size: 19px;
 }
@@ -63,7 +63,7 @@
 .features__card-para{
     font-size: 15px;
     font-family: 'Hind', sans-serif;
-    color: var(--button-color);
+    color: var(--text-color);
 }
 
 @media (max-width: 1200px){
