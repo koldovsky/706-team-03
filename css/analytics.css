@@ -8,7 +8,7 @@
 }
 
 .analytics__header {
-  color: var(--secondcolor);
+  color: var(--section-name-color);
   text-align: center;
   font-size: 12px;
   font-family: var(--textfont);
@@ -17,7 +17,7 @@
 
 .analytics__title {
   margin-top: 20px;
-  color: var(--firstcolor);
+  color: var(--title-color);
   text-align: center;
   font-size: 38px;
   font-weight: 700;
@@ -26,7 +26,7 @@
 
 .analytics__subtitle {
   margin-top: 15px;
-  color: var(--thirdcolor);
+  color: var(--text-color);
   text-align: center;
   font-size: 19px;
   font-family: var(--textfont);
@@ -94,14 +94,14 @@
   text-align: center;
   font-size: 22px;
   font-family: var(--textfont);
-  color: var(--firstcolor);
+  color: var(--title-color);
   font-weight: 700;
 }
 
 .analytics__icons-items-text {
   font-size: 17px;
   font-family: var(--textfont);
-  color: var(--thirdcolor);
+  color: var(--text-color);
   font-weight: 400;
 }
 

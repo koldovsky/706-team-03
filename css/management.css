@@ -11,7 +11,7 @@
 
 .management__header{
     text-align: left;
-    color: var(--secondcolor);
+    color: var(--title-color);
     font-family: 'Hind', sans-serif;
     font-size: 13px;
     font-weight: 700;
@@ -21,13 +21,13 @@
 .management__title{
     font-size: 56px;
     text-align: left;
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 20px;
     width: 100%;
 }
 .management__subtitle{
     text-align: left;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
@@ -61,7 +61,7 @@
     height: 50px;
     border: none;
     padding: 13px 34px;
-    background-color:var(--secondcolor);
+    background-color:var(--title-color);
     text-align: center;
     text-decoration: none;
     font-size: 14px;
@@ -91,5 +91,5 @@
     font-family: Hind, sans-serif;
     font-size: 17px;
     font-weight: 400;
-    color: var(--thirdcolor);
+    color: var(--text-color);
 }

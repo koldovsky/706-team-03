@@ -3,19 +3,19 @@
 }
 .mobile_app_header {
     text-align: center;
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-family: Hind, sans-serif;
     font-size: 13px;
     font-weight: 700;
     width: 100%;
 }
 .mob__app__text__header{
-    color: var(--firscolor);
+    color: var(--title-color);
     font-size: 56px;
     
  }
  .mob_text{
     font-size: 19px;
-    color: var(--thirdcolor);
+    color: var(--text-color);
  }
  

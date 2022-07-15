@@ -1,10 +1,3 @@
-:root {
-    --firstcolor: rgb(44, 46, 56);
-    --secondcolor: rgb(3, 135, 252);
-    --thirdcolor: rgb(111, 116, 144);
-    --fourcolor: rgb(90, 94, 117);
-}
-
 .benefits_basis {
     padding-top: 150px;
     padding-bottom: 75px;
@@ -12,7 +5,7 @@
 
 .benefits_header {
     text-align: center;
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-family: 'Hind', sans-serif;
     font-size: 13px;
     font-weight: 700;
@@ -21,7 +14,7 @@
 
 .benefits_title {
     text-align: left;
-    color: var(--firscolor);
+    color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
     font-size: 56px;
     margin-top: 20px;

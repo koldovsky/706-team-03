@@ -5,7 +5,7 @@
 
 .section-header {
     text-align: center;
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-family: var(--textfont);
     font-size: 13px;
     font-weight: 700;
@@ -16,14 +16,14 @@
     font-size: 56px;
     text-align: center;
     font-family: var(--mainfont);
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 20px;
     width: 100%;
 }
 
 .section-subtitle {
     text-align: center;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
@@ -50,7 +50,7 @@
 
 .testimonials__item-text {
     text-align: left;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     width: 100%;
     font-size: 17px;
     font-family: var(--textfont);
@@ -71,14 +71,14 @@
 .testimonials__item-author-name {
     font-size: 22px;
     text-align: left;
-    color: var(--firstcolor);
+    color: var(--title-color);
     margin-top: 7.5px;
     width: 100%;
 }
 
 .testimonials__item-author-position {
     text-align: left;
-    color: var(--thirdcolor);
+    color: var(--text-color);
     width: 100%;
     font-size: 14px;
     font-family: 'Hind', sans-serif;
@@ -121,7 +121,7 @@
     padding: 13px 34px;
     font-size: 14px;
     font-family: var(--textfont);
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -136,7 +136,7 @@
 }
 
 .trial-button:hover {
-    background: var(--secondcolor);
+    background: var(--section-name-color);
     color: #fff;
     cursor: pointer;  
 }

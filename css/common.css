@@ -1,9 +1,7 @@
 :root {
     /* COLORS */
     --title-color: rgb(44, 46, 56);
-    /* --firstcolor */
-    --sectionnamecolor: rgb(3, 135, 252);
-    /* --secondcolor */
+    --section-name-color: rgb(3, 135, 252);
     --text-color:  rgb(111, 116, 144);  
     /* --thirdcolor */
     --button-color: rgb(3, 135, 252);

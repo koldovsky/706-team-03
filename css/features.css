@@ -7,7 +7,7 @@
     text-transform: uppercase;
     display: block;
     text-align: center;
-    color: var(--secondcolor);
+    color: var(--section-name-color);
     font-size: 13px;
     font-family: var(--textfont);
     font-weight: 700;
@@ -16,7 +16,7 @@
 .features__title{
     margin-bottom: 20px;
     text-align: center;
-    color: var(--firstcolor);
+    color: var(--title-color);
     font-family: var(--mainfont);
     font-size: 56px;
 }
@@ -57,7 +57,7 @@
     font-size: 26px;
     font-family: 'Hind', sans-serif;
     font-weight: bold;
-    color: var(--firstcolor);
+    color: var(--title-color);
 }
 
 .features__card-para{
