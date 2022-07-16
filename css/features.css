@@ -24,7 +24,7 @@
 .features__subtitle{
     margin-bottom: 50px;
     text-align: center;
-    color: var(---text-color);
+    color: var(--text-color);
     font-family: var(--textfont);
     font-size: 19px;
 }
