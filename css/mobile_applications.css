@@ -1,5 +1,5 @@
 .mob_app_cotnent{
-    display: flex;
+    display: flex
 }
 .mobile_app_header {
     text-align: center;
@@ -17,5 +17,19 @@
  .mob_text{
     font-size: 19px;
     color: var(--text-color);
+    position: left;
  }
- 
+ .mob_app_text{
+    width: 506px ;
+ }
+ .switch_to_the_app_store{
+    width: 150px ;
+    margin-top: 0px;
+ }
+ .switch_to_the_googleplay{
+    width: 200px;
+    margin-bottom: px;
+ }
+ .phone_picture{
+    height: %;
+ }
