@@ -4,15 +4,21 @@
 
 .chapter {
    color: rgb(3, 135, 252);
-   font-size: 14px;
+   font-size: 13px;
    font-weight: bold;
+   font-family: var(--textfont);
 
+}
+.mob-text-head{
+   font-size: 19px;
+   color: var(--text-color);
+   margin-top: 40px;
 }
 
 .mob_text {
-   font-size: 19px;
+   font-size: 17px;
    color: var(--text-color);
-   position: left;
+   margin-top: 45px;
 }
 
 .block-phone {
@@ -70,4 +76,8 @@
 .icons-block {
    display: flex;
 
+}
+.mob__app__text__header{
+   font-size: 56px;
+   margin-top: 40px;
 }
