@@ -20,8 +20,9 @@
     padding-top: 36px;
 }
 @media (min-width:768px) {
-    .management__header
-    font-size: 13px;
+    .management__header {
+        font-size: 13px;
+    }
 }
 
 .management__title{
@@ -33,7 +34,9 @@
     width: 100%;
 }
 @media (min-width: 768px) {
-    font-size: 56px;
+    .management__title {
+        font-size: 56px; 
+    }
 }
 .management__subtitle{
     text-align: left;
