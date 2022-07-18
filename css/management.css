@@ -2,28 +2,38 @@
 .management {
     padding-top: 150px;
     padding-bottom: 75px;
-    background-color: var(--graybackgroundcolor);
+    background-color: var(--gray-backgroundcolor);
 }
 
-.website_management-wraper {
-    display: flex;
+@media (min-width: 768px) {
+    .website_management-wraper {
+        display: flex;
+    }
 }
 
 .management__header{
     text-align: left;
-    color: var(--title-color);
-    font-family: 'Hind', sans-serif;
-    font-size: 13px;
+    color: var(--section-name-color);
+    font-family: var(--textfont);
+    font-size: 12px;
     font-weight: 700;
-    width: 100%;
     padding-top: 36px;
 }
+@media (min-width:768px) {
+    .management__header
+    font-size: 13px;
+}
+
 .management__title{
-    font-size: 56px;
+    font-size: 38px;
+    font-family: var(--mainfont);
     text-align: left;
     color: var(--title-color);
     margin-top: 20px;
     width: 100%;
+}
+@media (min-width: 768px) {
+    font-size: 56px;
 }
 .management__subtitle{
     text-align: left;
@@ -31,13 +41,18 @@
     margin-top: 15px;
     width: 100%;
     font-size: 19px;
-    font-family: "Hind", sans-serif;
+    font-family: var(--textfont);
     font-weight: 400;
 }
+
 .management__image {
     border-radius: inherit;
-    width: 50%;
     padding-right: 15px;
+}
+@media (nim-width:768px) {
+    .management__image {
+        width: 50%;
+    }
 }
 
 .management__img {
@@ -45,8 +60,12 @@
     height: 100%;
 }
 .management__wrapper {
-    width: 50%;
     padding-left: 15px;
+}
+@media (min-width:768px) {
+    .management__wrapper {
+        width: 50%;
+    }
 }
 .management__check-mark {
     width: 24px;
@@ -61,19 +80,19 @@
     height: 50px;
     border: none;
     padding: 13px 34px;
-    background-color:var(--title-color);
+    background-color:var(--button-color);
     text-align: center;
     text-decoration: none;
     font-size: 14px;
     color: white;
-    font-family: Haid sans-serif;
+    font-family: var(--textfont);
     margin-top: 60px;
     border-radius: 4px;
     border-width: 2px;
 }
 .management__bottom:hover {
-    background-color: #2548C5;
-    color: #fff;
+    background-color:var(--dark-button-color);
+    color: var(--light-text-color);
     cursor: pointer;
 }
 .management__check-box {
@@ -88,7 +107,7 @@
 .management__check-list {
     padding: 0 12px;
     margin-bottom: 16px;
-    font-family: Hind, sans-serif;
+    font-family: var(--textfont);
     font-size: 17px;
     font-weight: 400;
     color: var(--text-color);

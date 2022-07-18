@@ -4,7 +4,9 @@
     --section-name-color: rgb(3, 135, 252);
     --text-color:  rgb(111, 116, 144);  
     --button-color: rgb(3, 135, 252);
+    --dark-button-color: rgb(37, 72, 197);
     --light-text-color: rgb(255, 255, 255);
+    --gray-backgroundcolor: rgb(243, 244, 248);
     /* FONTS */
     --mainfont: 'Work Sans', sans-serif;
     --textfont: 'Hind', sans-serif;
