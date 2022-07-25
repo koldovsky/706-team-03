@@ -1,0 +1,177 @@
+.integration__header {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--section-name-color);
+    font-size: 13px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 800;
+    padding: 15px;
+    margin: 100px;
+    bottom: 0;
+}
+
+.integration__title {
+    font-family: var(--mainfont);
+    font-size: 56px;
+    text-align: center;
+    color: var(--title-color);
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .integration__title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .integration__title {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .integration__title {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+}
+.integration__subtitle {
+    font-family: var(--textfont);
+    font-size: 17px;
+    text-align: center;
+    color: var(--text-color);
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .integration__subtitle {
+        font-size: 17px;
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .integration__subtitle {
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+.integration__analytics, .integration__customcode, .integration__slack {
+    display: inline-block;
+    margin: -15px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.integration__analytics__wrapper, .integration__customcode__wrapper, .integration__slack__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+@media (max-width: 576px) {
+    .integration__analytics__wrapper, .integration__customcode__wrapper, .integration__slack__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: left;
+    }
+}
+
+.integration__analytics_descr, .integration__customcode_descr, .integration__slack_descr {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 400px;
+    max-width: 800px;
+    text-align: left;
+}
+
+.integration__analytics_icon img {
+    display: inline-block;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    
+}
+.integration__analytics_image img {
+    height: 300px;
+    margin: auto;
+}
+
+.integration__customcode_icon img {
+    display: inline-block;
+    justify-content: space-between;
+    height: 50px;
+    max-width: 50px;
+    margin: 2px;
+    padding-top: 5px;
+}
+.integration__customcode_image img {
+    height: 300px;
+    margin: auto;
+}
+
+.integration__slack_icon img {
+    display: inline-block;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+.integration__slack_image img {
+    height: 300px;
+}
+
+.integration__analytics_title, .integration__slack_title, .integration__customcode_title {
+    margin-top: 5px;
+    font-family: var(--textfont);
+    font-size: 25px;
+    color: var(--title-color);
+}
+
+@media (max-width: 576px) {
+    .integration__analytics_title, .integration__slack_title, .integration__customcode_title {
+        font-size: 17px;
+        line-height: 25px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.integration__analytics_about, .integration__slack_about, .integration__customcode_about {
+    margin-top: 25px;
+    font-family: var(--textfont);
+    font-size: 17px;
+    color: var(--text-color);
+}
+
+@media (max-width: 976px) {
+    .integration__analytics_about, .integration__slack_about, .integration__customcode_about {
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.integration__slack {
+    padding: 40px 0;
+}
+ .customcode_paragraph {
+    font-weight: 400;
+    color: var(--firstcolor);
+    font-family: var(--textfont);
+    font-style: italic;
+ }
