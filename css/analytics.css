@@ -111,21 +111,21 @@
   }
 
   .analytics__icons {
-    padding-bottom: 115px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-.analytics__icons-widjets,
-.analytics__icons-services,
-.analytics__icons-styles,
-.analytics__icons-requests {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+  .analytics__icons-widjets,
+  .analytics__icons-services,
+  .analytics__icons-styles,
+  .analytics__icons-requests {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 
   .analytics__icons-services,
   .analytics__icons-styles,
@@ -146,10 +146,10 @@
   }
 
   .analytics__icons-items-title {
-    font-size: 24px    
+    font-size: 24px;
   }
-
 }
+
 
 
 @media (min-width: 780px) {
@@ -158,20 +158,20 @@
   }
 
   .analytics__icons {
-    padding-bottom: 115px;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-.analytics__icons-widjets,
-.analytics__icons-services,
-.analytics__icons-styles,
-.analytics__icons-requests {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+  .analytics__icons-widjets,
+  .analytics__icons-services,
+  .analytics__icons-styles,
+  .analytics__icons-requests {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 
   .analytics__icons-services,
   .analytics__icons-styles,
@@ -192,7 +192,27 @@
   }
 
   .analytics__icons-items-title {
-    font-size: 24px    
+    font-size: 24px;
   }
+}
 
+.analytics-btn {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid var(--section-name-color);
+  background: var(--section-name-color);
+  color: var(--light-text-color);
+  font-size: 16px;
+  line-height:18px;
+  padding: 16px 44px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: var(--text-color) 0px 8px 8px 0;
+  cursor: pointer;
+}
+
+.analytics-btn:hover {
+  background:var(--light-text-color);
+  color:var(--section-name-color);
+  border: 1px solid var(--section-name-color);
 }
