@@ -5,6 +5,7 @@
 .benefits_main {
     display: flex;
     flex-direction: row;
+    
 }
 
 .benefits_header {
