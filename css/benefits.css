@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding-bottom: 25px;
     }
 
 .benefits_header {
@@ -26,9 +27,11 @@
     color: var(--section-name-color);
     font-family: 'Hind', sans-serif;
     font-size: 13px;
+    line-height: 1.73;
     font-weight: 700; 
-     
+    
 }
+
 .benefits_title {
     text-align: left;
     color: var(--title-color);
@@ -44,21 +47,28 @@
     font-family: 'Hind' sans-serif;
     line-height: 1.7;
     font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
     letter-spacing: 0;
     color: #6f7490;
     text-transform: none;
     float: right;
-    width: 50%;
+    width: 52%;
     padding-left: 25px;
+    margin-top: 5px;
 }
-
-
+ 
 
 
 .benefits_texts {
-    
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
+.benefit {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 
 
 
