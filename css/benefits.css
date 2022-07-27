@@ -26,7 +26,13 @@
 }
 
 .benefits_subtitle {
-    
+    font-size: 19px;
+    font-family: 'Hind' sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #6f7490;
+    text-transform: none;
 }
 
 
