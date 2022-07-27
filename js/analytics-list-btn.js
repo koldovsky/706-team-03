@@ -29,7 +29,7 @@
 
   function renderAnalytics(analyticList) {
     const analyticsContainer = document.querySelector('.analytics__icons');
-      analyticsContainer.innerHTML = '';
+    analyticsContainer.innerHTML = '';
     for (const product of analyticList) {
       analyticsContainer.innerHTML += `
             <div class="analytics__icons-widjets">
@@ -44,33 +44,33 @@
                 </div>
             </div> `;
     }
+  }
+
+  renderAnalytics(analyticList);
+
+
+  function updateTitle(newTitle) {
+    const titleName = document.querySelector(".analytics__title");
+    titleName.innerHTML = newTitle;
+  }
+
+  function changeTitle() {
+    const yourName = prompt("What is you name?")
+    const yourAge = prompt("What is your age?");
+
+
+    if (yourAge >= 18) {
+      updateTitle("Welcome, " + yourName + ", you're on board!");
+    } else {
+      updateTitle(
+        "It's a pity, " + yourName + ", our company will wait for you soon!"
+      );
     }
+  }
 
-    renderAnalytics(analyticList); 
+  let changeButton = document.querySelector(".analytics-btn");
+  changeButton.addEventListener("click", changeTitle);
 
-
-     function updateTitle(newTitle) {
-       const titleName = document.querySelector(".analytics__title");
-       titleName.innerHTML = newTitle;
-     }
-
-    function changeTitle() {
-         const yourName = prompt("What is you name?")
-         const yourAge = prompt("What is your age?");
-         
-         
-       if (yourAge >=18) {
-         updateTitle("Welcome, " + yourName + ", you're on board!");
-       } else {
-         updateTitle(
-           "It's a pity, " + yourName + ", our company will wait for you soon!"
-         );
-       }
-     }
-
-     let changeButton = document.querySelector("button");
-     changeButton = addEventListener("click", changeTitle);
-    
 })();
 
 
