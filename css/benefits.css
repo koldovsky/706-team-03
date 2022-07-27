@@ -63,6 +63,7 @@
 .benefits_texts {
     display: grid;
     grid-template-columns: 60% 40%;
+    padding-top: 31px;
 }
 
 .benefit {
@@ -70,6 +71,17 @@
     grid-template-columns: 50% 50%;
 }
 
+
+.benefits_one {
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: Hind,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1;
+    color: #2c2e38;
+   
+}
 
 
 
