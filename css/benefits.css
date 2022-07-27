@@ -19,14 +19,14 @@
 .benefits_header {
     text-align: left;
     float: left;
-    width: 46%;
+    width: 50%;
    
 }
 .benefits_main_title {
     color: var(--section-name-color);
     font-family: 'Hind', sans-serif;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 700; 
      
 }
 .benefits_title {
@@ -36,6 +36,7 @@
     font-size: 38px;
     margin-top: 20px;
     width: 100%;
+    padding-right: 25px;
 }
 
 .benefits_subtitle {
@@ -47,11 +48,16 @@
     color: #6f7490;
     text-transform: none;
     float: right;
-    width: 46%;
+    width: 50%;
+    padding-left: 25px;
 }
 
 
 
+
+.benefits_texts {
+    
+}
 
 
 
