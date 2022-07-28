@@ -72,16 +72,40 @@
 }
 
 
-.benefits_one {
+
+
+
+.benefits_text_free {
+    display: flex;
+    flex-direction: row;
+}
+
+.hhtext {
+    font-size: 26px;
+    line-height: 1.4;
+    font-family: Hind,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #2c2e38;
+    text-transform: none;
+
+}
+
+.pptext {
     font-size: 17px;
     line-height: 1.6;
     font-family: Hind,sans-serif;
     font-weight: 400;
-    word-wrap: break-word;
-    z-index: 1;
-    color: #2c2e38;
-   
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #6f7490;
+    text-transform: none;
 }
+
+
 
 
 
