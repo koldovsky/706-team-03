@@ -41,7 +41,6 @@
     margin: 0 15px 0 15px;
     background: #ffffff;
     padding: 35px 55px 35px 55px;
-
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
     border-radius: 6px;
     flex-basis: 50%;
@@ -69,8 +68,10 @@
 }
 
 .testimonials__item-author-name {
-    font-size: 22px;
+    font-size: 24px;
     text-align: left;
+    font-family: var(--textfont);
+    font-weight: 700;
     color: var(--title-color);
     margin-top: 7.5px;
     width: 100%;
