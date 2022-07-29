@@ -1,83 +1,83 @@
 .mob_app_cotnent {
-   display: flex
+    display: flex
 }
 
 .chapter {
-   color: rgb(3, 135, 252);
-   font-size: 13px;
-   font-weight: bold;
-   font-family: var(--textfont);
-
+    color: rgb(3, 135, 252);
+    font-size: 13px;
+    font-weight: bold;
+    font-family: var(--textfont);
 }
-.mob-text-head{
-   font-size: 19px;
-   color: var(--text-color);
-   margin-top: 40px;
+
+.mob-text-head {
+    font-size: 19px;
+    color: var(--text-color);
+    font-family: var(--textfont);
+    margin-top: 40px;
 }
 
 .mob_text {
-   font-size: 17px;
-   color: var(--text-color);
-   margin-top: 45px;
+    font-size: 17px;
+    color: var(--text-color);
+    font-family: var(--textfont);
+    margin-top: 45px;
 }
 
 .block-phone {
-   width: 40%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mobile-phone {
-   position: relative;
-   z-index: 0;
+    position: relative;
+    z-index: 0;
 }
 
 .screen-wrapper {
-   position: absolute;
-   width: 84.9%;
-   height: 92.9%;
-   bottom: 3.6%;
-   left: 7.5%;
-   border-radius: 27px;
+    position: absolute;
+    width: 84.9%;
+    height: 92.9%;
+    bottom: 3.6%;
+    left: 7.5%;
+    border-radius: 27px;
 }
 
 .phone-screen {
-   position: absolute;
-   border-radius: inherit;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   opacity: 0.9;
+    position: absolute;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
 }
-
-
 
 .block-description {
-   width: 60%;
+    width: 60%;
 }
 
-
 .apple-store {
-   height: 45px;
-   width: 150px;
-   margin-top: 50px;
-   border-radius: 5px;
+    height: 45px;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .google-store {
-   height: 68px;
-   width: 150px;
-   margin-top: 38px;
+    height: 68px;
+    width: 150px;
+    margin-top: 38px;
 }
 
 .icons-block {
-   display: flex;
-
+    display: flex;
 }
-.mob__app__text__header{
-   font-size: 56px;
-   margin-top: 40px;
+
+.mob__app__text__header {
+    font-size: 56px;
+    margin-top: 40px;
+    font-family: var(--mainfont);
+    color: var(--title-color);
 }
