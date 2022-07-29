@@ -49,27 +49,27 @@
   renderAnalytics(analyticList);
 
 
-  function updateTitle(newTitle) {
-    const titleName = document.querySelector(".analytics__title");
-    titleName.innerHTML = newTitle;
-  }
+  const secondHand = document.querySelector(".second-hand");
+    const minsHand = document.querySelector(".min-hand");
+    const hoursHand = document.querySelector(".hour-hand");
 
-  function changeTitle() {
-    const yourName = prompt("What is you name?")
-    const yourAge = prompt("What is your age?");
+    function updateClock() {
+        const now = new Date();
 
+        const seconds = now.getSeconds();
+        const secondsDegrees = ((seconds / 60) * 360) + 90;
+        secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 
-    if (yourAge >= 18) {
-      updateTitle("Welcome, " + yourName + ", you're on board!");
-    } else {
-      updateTitle(
-        "It's a pity, " + yourName + ", our company will wait for you soon!"
-      );
+        const mins = now.getMinutes();
+        const minsDegrees = ((mins / 60) * 360) + 90;
+        minsHand.style.transform = `rotate(${minsDegrees}deg)`;
+
+        const hours = now.getHours();
+        const hoursDegrees = ((hours / 60) * 360 )+ 90;
+        hoursHand.style.transform = `rotate(${hoursDegrees}deg)`;
     }
-  }
 
-  let changeButton = document.querySelector(".analytics-btn");
-  changeButton.addEventListener("click", changeTitle);
+    setInterval(updateClock, 1000);
 
 })();
 
