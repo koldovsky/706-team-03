@@ -26,7 +26,7 @@
 }
 .benefits_main_title {
     color: var(--section-name-color);
-    font-family: 'Hind', sans-serif;
+    font-family: var(--textfont);
     font-size: 13px;
     line-height: 1.73;
     font-weight: 700; 
@@ -45,7 +45,7 @@
 
 .benefits_subtitle {
     font-size: 20px;
-    font-family: 'Hind' sans-serif;
+    font-family: var(--textfont);
     line-height: 1.7;
     font-weight: 400;
     text-decoration: none;
@@ -84,7 +84,7 @@
 .hhtext {
     font-size: 26px;
     line-height: 1.4;
-    font-family: 'Hind' sans-serif;
+    font-family: var(--textfont);
     font-weight: 700;
     text-decoration: none;
     font-style: normal;
@@ -97,7 +97,7 @@
 .pptext {
     font-size: 17px;
     line-height: 1.6;
-    font-family: 'Hind' sans-serif;
+    font-family: var(--textfont);
     font-weight: 400;
     text-decoration: none;
     font-style: normal;
