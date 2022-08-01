@@ -18,24 +18,51 @@
 
 .slider {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     column-gap: 30px;
 }
 
+.carousel-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
 .slider-item {
-    height: auto;
-    width: 25%;
-    padding: 20px 40px;
-    margin-bottom: 15px;
     background-color: rgb(249, 252, 255);
+    width: 250px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+    padding: 20px 40px;
+    height: 100px;
+}
+
+.arrow-prev, .arrow-next{
+    width: 40px;
+    height: 40px;
+    color: #a6a4a4;
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {
     .slider-companies {
         padding: 0 40px;
         margin: 70px auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .slider-item {
+        width: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    .slider-item {
+        width: 200px;
     }
 }

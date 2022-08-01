@@ -8,13 +8,6 @@
     <title>Boost App</title>
     <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -109,15 +102,14 @@
             <p class="subtitle">
                 <span class="subtitle__colored-text">Trusted by hundreds</span> of the world's IT giants:
             </p>
-            <div class="slider owl-container">
-                <div class="owl-carousel owl-theme">
-                    <img class="slider-item" src="img/slider_logos/docker_logo.png" alt="Docker logotype">
-                    <img class="slider-item" src="img/slider_logos/google_logo.png" alt="Google logotype">
-                    <img class="slider-item" src="img/slider_logos/ibm_logo.png" alt="IBM logotype">
-                    <img class="slider-item" src="img/slider_logos/optimizely_logo.png" alt="Optimizely logotype">
-                    <img class="slider-item" src="img/slider_logos/github_logo.png" alt="GitHub logotype">
-                    <img class="slider-item" src="img/slider_logos/shutterstock_logo.png" alt="Shutterstock logotype">
-                </div>
+            <div class="slider">
+                <svg viewBox="0 0 24 24" class="arrow-prev">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                </svg>
+                <div class="carousel-items"> </div>
+                <svg viewBox="0 0 24 24" class="arrow-next">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
             </div>
         </div>
 
@@ -163,7 +155,7 @@
                     <div class="management__image">
                         <button class="management-carousel__btn-prev"> <img src="img/website_management/arrow-sm-left.svg"> </button>
                         <div class="management-carousel__slide"></div>
-                        <button class="management-carousel__btn-next"> <img src="img/website_management/arrow-sm-right.svg"</button>
+                        <button class="management-carousel__btn-next"> <img src="img/website_management/arrow-sm-right.svg"></button>
                         <!-- <img src="img/website_management/website_menagement.png" alt="Illustration site addres"
                             class="management__img"> -->
                     </div>
@@ -895,13 +887,6 @@
         </div>
     </footer>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/carousel.js"></script>
     <script src="js/management-carousel.js"></script>
     <script src="js/analytics-list-clock.js"></script>
