@@ -18,50 +18,90 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <div class="logo__header">
-                <a href="#">
-                    <img class="logo__header" src="img/header/logo.svg" alt="BoostApp logo" width="150">
-                </a>
-            </div>
-            <div class="all__hrefs">
-                <a href="#features" class="link__button">Features</a>
-                <a href="#benefits" class="link__button">Benefits</a>
-                <a href="#testimonials" class="link__button">Testimonials</a>
-                <a href="#contacts" class="link__button">Contacts</a>
-                <a href="https://www.facebook.com/" class="link__button"><img src="img/header/facebook.svg"
-                        alt="facebook"></a>
-                <a href="https://www.instagram.com/" class="link__button"><img src="img/header/instagram.svg"
-                        alt="instagram"></a>
-                <a href="https://www.youtube.com/" class="link__button"><img src="img/header/you_tube.svg"
-                        alt="you-tube"></a>
-            </div>
-
-            <h1 class="any__idea">
-                Bring Any Idea to Life
-            </h1>
-            <p class="description__about__app">
-                Boost App is a powerful desktop and mobile app to edit and manage your website on-the-go.
-            </p>
-
-            <div class="big__banner__image">
-                <img class="big__banner__image" src="img/header/banner.png" alt="banner" width="5000">
+    <section class="bring">
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="header__logo">
+                        <img src="icons/logo_resize_min.svg" alt="logo company">
+                    </div>
+                    <div class="nav__menu">
+                        <a class="nav__menu-link" href="#features">Features</a>
+                        <a class="nav__menu-link" href="#benefits">Benefits</a>
+                        <a class="nav__menu-link" href="#testimonials">Testimonials</a>
+                        <a class="nav__menu-link" href="#contacts">Contacts</a>
+                        <div class="header__icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
 
-            <p class="free__trial">
-                Start Free Trial
-            </p>
+            <section class="time">
+                <div id="time">
+                    <div id="hours">00</div>
+                    <div id="minutes">00</div>
+                    <div id="seconds">00</div>
+                </div>
+            </section>
 
-            <p class="buy__for__only">
-                Buy For Only $0.99
-            </p>
+            <div class="bring__wrapper">
+                <div class="bring__idea">
+                    <h1 class="idea__title">Bring Any Idea to Life</h1>
+                    <p class="idea__subtitle">Boost App is a powerful desktop and mobile app to edit and manage your website on-the-go.</p>
+                    <div class="idea__buttons">
+                        <button data-modal="start_free" class="btn__start">Start Free Trial</button>
+                        <a href="#pricing__plans" class="btn__buy">Buy for Only $9.99</a>
+                    </div>
+                    <div class="idea__descr">15 days free trial • No credit card required</div>
+                </div>
+                <div class="bring__image">
+                    <img src="img/bring/bring__section_resize_min.png" alt="Boost App is a powerful desktop and mobile app to edit and manage your website">
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <p class="no__credit__card">
-                15 days free trial • No credit card required
-            </p>
-        </nav>
-    </header>
+    <div class="overlay_block">
+        <div class="modal_block" id="modalWindow">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Get Started for FREE!</div>
+            <div class="divider_modal"></div>
+            <div class="modal__descr">Fill out the contact form to get access to a 15-day trial version of our app.</div>
+            <form id="free-form" class="start-form feed-form_modal" method="POST">
+                <input name="name" placeholder="Enter your name" required type="text">
+                <input name="phone" placeholder="Your phone" required type="tel">
+                <input name="email" placeholder="Your E-mail" required type="email">
+
+                <button class="button button_submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="modal_mini_block modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32">
+                    <g>
+                    <path fill="#0387fc" d="M18.32 32c-1.51 0-2.93-.62-3.997-1.746-.43-.455-.43-1.19 0-1.645.43-.455 1.128-.455 1.558 0 .653.686 1.52 1.065 2.44 1.065.92 0 1.787-.38 2.438-1.066l19.03-20.077c.652-.687 1.01-1.6 1.01-2.572 0-.97-.358-1.885-1.01-2.572-1.344-1.418-3.532-1.418-4.876 0L24.31 14.573c-.43.454-1.13.454-1.56 0-.43-.454-.43-1.19 0-1.644L33.354 1.743c2.204-2.325 5.79-2.325 7.994 0 2.204 2.325 2.204 6.108 0 8.433l-19.03 20.077C21.25 31.38 19.83 32 18.32 32z">
+                    </path>
+                    <path fill="#0387fc" fill-opacity=".359" d="M24 26.134l-3.295 3.44c-1.82 1.9-4.77 1.9-6.59 0L2.365 17.307c-1.82-1.9-1.82-4.98 0-6.88 1.82-1.9 4.77-1.9 6.59 0L24 26.133z">
+                    </path>
+                    <path fill="#0387fc" d="M18.053 32c-1.592 0-3.088-.645-4.214-1.817L1.742 17.59c-2.324-2.42-2.324-6.354 0-8.773C2.868 7.645 4.365 7 5.957 7c1.592 0 3.088.645 4.213 1.817L25.66 24.94c.453.473.453 1.24 0 1.712l-3.393 3.53C21.142 31.356 19.645 32 18.053 32zM5.957 9.42c-.97 0-1.884.393-2.57 1.108-1.42 1.475-1.42 3.876 0 5.352l12.096 12.592c.686.715 1.6 1.11 2.57 1.11.97 0 1.884-.395 2.57-1.11l2.572-2.676L8.527 10.528c-.686-.715-1.6-1.11-2.57-1.11z">
+                    </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="modal__subtitle modal_error_oops">Thank you!</div>
+            <div class="modal__descr modal_error">We will contact you shortly.</div>
+        </div>
+    </div>
 
     <main>
         <!-- Kaminska Emiliia -->
@@ -865,6 +905,9 @@
     <script src="js/carousel.js"></script>
     <script src="js/management-carousel.js"></script>
     <script src="js/analytics-list-clock.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -7,6 +7,21 @@
     --dark-button-color: rgb(37, 72, 197);
     --light-text-color: rgb(255, 255, 255);
     --gray-backgroundcolor: rgb(243, 244, 248);
+
+
+    --bring-button-start-hover: rgb(28, 191, 50);
+    --icons-header-color: rgb(3, 135, 252);
+    --icons-header-background-color: rgb(255, 255, 255);
+    --icons-header-hover: rgba(255, 255, 255, 0.85);
+    --header-nav-menu-text-color: rgba(255, 255, 255, 0.69);
+    --header-nav-menu-hover-color: rgb(158, 235, 71);
+    --background-bring-gradient-left: rgba(4, 52, 209, 0.95);
+    --background-bring-gradient-right: rgba(3, 135, 252, 0.95);
+    --background-modal: rgb(255, 255, 255);
+    --background-modal-input: rgba(243, 244, 248, 0.8);
+    --modal-divider-color: rgb(3, 135, 252);
+    --modal-submit-btn-hover: rgb(37, 72, 197);
+    --light-button-color: rgb(255, 255, 255);
     /* FONTS */
     --mainfont: 'Work Sans', sans-serif;
     --textfont: 'Hind', sans-serif;
