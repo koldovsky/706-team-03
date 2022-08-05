@@ -33,18 +33,22 @@
 .testimonials__wrapper {
     margin-top: 60px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    width: calc(100% + 30px);
 }
 
 .testimonials__item {
-    margin: 0 15px 0 15px;
+    margin: 15px;
     background: #ffffff;
     padding: 35px 55px 35px 55px;
     box-shadow: 0 10px 10px 7px rgb(136 140 133 / 15%);
     border-radius: 6px;
-    flex-basis: 50%;
-    max-width: 50%;
+}
+
+@media (max-width: 766px) {
+    .testimonials__wrapper {
+        flex-direction: column;
+    }
 }
 
 .testimonials__item-text {
@@ -58,13 +62,21 @@
 
 .testimonials__item-author {
     margin-top: 20px;
+    display: flex;
 }
 
 .testimonials__item-author-photo {
     margin: 7.5px;
-    width: 70px;
+    min-width: 70px;
     height: 70px;
     border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+    object-position: top;
+}
+
+.testimonials__item-author-info {
+    display: inline-block;
 }
 
 .testimonials__item-author-name {
@@ -86,8 +98,35 @@
     word-wrap: break-word;
 }
 
+.testimonials__item-raiting {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.raiting-button {
+    width: 1em;
+    align-self: center;
+}
+
+.raiting-button:hover {
+    cursor: pointer;
+}
+
+.raiting-up {
+    fill: green;
+}
+
+.raiting-value {
+    margin: 5px;
+    font-family: var(--textfont);
+}
+
+.raiting-down {
+    fill: red;
+}
+
 .trial {
-    padding: 175.5px 0 75px 0;
+    padding: 75px 10px;
     background: url("//res2.weblium.site/res/5efdf94ff3bc420021179c9f/5f17df32b90ac70023badf85_optimized_24.webp") center center / 24px repeat, rgba(255, 255, 255, 0.4);
 }
 
@@ -114,10 +153,19 @@
 .buttons-container {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     margin: 30px -10px -10px -10px;
+    align-items: center;
+}
+@media (max-width: 473px) {
+    .buttons-container {
+        flex-direction: column;
+    }
 }
 
 .button {
+    width: 165px;
+    height: 50px;
     margin: 10px;
     padding: 13px 34px;
     font-size: 14px;
@@ -129,8 +177,6 @@
 }
 
 .trial-button {
-    width: 165px;
-    height: 50px;
     border: 2px solid transparent;
     border-radius: 4px;
     background-color: #ffffff;
