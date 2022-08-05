@@ -217,7 +217,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  
+
 }
 
 .hand {
@@ -260,8 +260,7 @@
 
 .analytics-countdown {
   display: none;
-  transform: scale(1.5);
-
+  transform: scale(1);
 }
 
 .analytics-time {
@@ -292,6 +291,10 @@
 
   .analytics-time {
     margin: 15px;
+  }
+
+  .analytics-countdown {
+    transform: scale(1.5);
   }
 
   .analytics-time h2 {
