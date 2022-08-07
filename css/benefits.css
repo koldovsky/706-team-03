@@ -62,7 +62,7 @@
                             @media (max-width: 992px) {
                                 .benefits_subtitle, .benefits_main_title, .benefits_title {
                                     padding-left: 25px; 
-                                    padding-right: 5px;
+                                    padding-right: 7px;
                                 }
                             }
                            
@@ -190,7 +190,7 @@
 @media (max-width: 992px) {
     .modal {
     width: 50%;
-    height: 50%;
+    padding-top: 700px;
     }
 }
 
@@ -200,6 +200,7 @@
     width: 80%;
     max-width: 700px;
 }
+
 
 #caption {
     margin: auto;
@@ -212,7 +213,7 @@
     height: 150px;
 }
 
-
+ 
 .modal-content, #caption {
     -webkit-animation-name:  zoom;
     -webkit-animation-duration: 0.6s;
@@ -239,6 +240,14 @@
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+}
+
+
+@media (max-width: 992px) {
+    .close {
+        top: 650px;
+        right: 15px;
+    }
 }
 
 .close:hover, .close:focus {
