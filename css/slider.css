@@ -33,19 +33,12 @@
 
 .slider-item {
     background-color: rgb(249, 252, 255);
-    width: 250px;
+    width: 235px;
     max-width: 100%;
     margin: auto;
     object-fit: contain;
     padding: 20px 40px;
-    height: 100px;
-}
-
-.arrow-prev, .arrow-next{
-    width: 40px;
-    height: 40px;
-    color: #a6a4a4;
-    cursor: pointer;
+    height: 125px;
 }
 
 @media (max-width: 1200px) {
@@ -58,11 +51,13 @@
 @media (max-width: 770px) {
     .slider-item {
         width: 150px;
+        height: 135px;
     }
 }
 
 @media (max-width: 650px) {
     .slider-item {
-        width: 200px;
+        width: 150px;
+        height: 135px;
     }
 }

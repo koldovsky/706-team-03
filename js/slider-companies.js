@@ -8,7 +8,7 @@
     function renderCarousel(slides) {
         const slideContainer = document.querySelector('.carousel-items');
         slideContainer.innerHTML = '';
-        for (let i = 0; i < slides.length; i++){
+        for (let i = 0; i < slides.length; i++) {
             let sliderImage = document.createElement('div');
             sliderImage.classList.add('item');
             sliderImage.innerHTML = `
@@ -20,19 +20,25 @@
     }
 
     $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
+        loop: true,
+        margin: 10,
         nav: false,
         autoplay: true,
-        responsive:{
-            0:{
-                items:1,
+        responsive: {
+            0: {
+                items: 1,
             },
-            600:{
-                items:3,
+            500: {
+                items: 2,
             },
-            1000:{
-                items:5,
+            700: {
+                items: 3,
+            },
+            800: {
+                items: 4,
+            },
+            950: {
+                items: 5,
             }
         }
     })
