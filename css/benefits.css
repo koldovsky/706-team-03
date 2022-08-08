@@ -204,8 +204,8 @@
 
 @media (max-width: 992px) {
     .modal {
-    width: 50%;
-    padding-top: 700px;
+    width: 85%;
+    padding-top: 300px;
     }
 }
 
@@ -260,7 +260,7 @@
 
 @media (max-width: 992px) {
     .close {
-        top: 650px;
+        top: 200px;
         right: 15px;
     }
 }
