@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Docker",
+    "image": "https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png"
+  },
+  {
+    "id": 2,
+    "title": "Google",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png"
+  },
+  {
+    "id": 3,
+    "title": "IBM",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/800px-IBM_logo.svg.png"
+  },
+  {
+    "id": 4,
+    "title": "Optimizely",
+    "image": "https://cdn.cdnlogo.com/logos/o/43/optimizely.svg"
+  },
+  {
+    "id": 5,
+    "title": "GitHub",
+    "image": "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
+  },
+  {
+    "id": 6,
+    "title": "Shutterstock",
+    "image": "https://logos-world.net/wp-content/uploads/2021/10/Shutterstock-Logo.png"
+  }
+]
