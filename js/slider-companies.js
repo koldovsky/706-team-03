@@ -2,7 +2,6 @@
 
     const response = await fetch('api/companies-slides.json');
     const data = await response.json();
-    console.log(data);
     renderCarousel(data);
 
     function renderCarousel(slides) {
@@ -14,7 +13,6 @@
             sliderImage.innerHTML = `
             <img class="slider-item" src="${slides[i].image}" alt="${slides[i].title} logotype">
             `
-            console.log(sliderImage);
             slideContainer.appendChild(sliderImage);
         }
     }
