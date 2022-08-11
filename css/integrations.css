@@ -1,16 +1,22 @@
-.integration__header {
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--section-name-color);
-    font-size: 13px;
-    font-family: 'Hind', sans-serif;
-    font-weight: 800;
-    padding: 15px;
-    margin: 100px;
-    bottom: 0;
+.integrations {
+    padding: 145px 0 150px;
+    min-height: 1550px;
+    background: var(--background-integrations);
 }
-
-.integration__title {
+@media (max-width: 576px) {
+    .integrations {
+        padding: 40px 0 40px;
+    }
+}
+.integrations__header {
+    text-align: center;
+    color: var(--section-name-color);
+    font-family: var(--textfont);
+    font-size: 13px;
+    font-weight: 700;
+    width: 100%;
+}
+.integrations__title {
     font-family: var(--mainfont);
     font-size: 56px;
     text-align: center;
@@ -19,159 +25,171 @@
     width: 100%;
 }
 
-@media (max-width: 992px) {
-    .integration__title {
-        font-size: 48px;
-    }
-}
-
 @media (max-width: 768px) {
-    .integration__title {
-        font-size: 36px;
-        margin-top: 15px;
+    .integrations__title {
+        font-size: 46px;
     }
 }
 @media (max-width: 576px) {
-    .integration__title {
-        font-size: 19px;
-        margin-top: 12px;
+    .integrations__title {
+        font-size: 24px;
     }
 }
-.integration__subtitle {
-    font-family: var(--textfont);
-    font-size: 17px;
+.integrations__subtitle {
     text-align: center;
     color: var(--text-color);
-    padding-top: 25px;
-    padding-bottom: 50px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 19px;
+    font-family: var(--textfont);
+}
+@media (max-width: 576px) {
+    .integrations__subtitle {
+        font-size: 15px;
+    }
 }
 
+/*
 @media (max-width: 768px) {
-    .integration__subtitle {
+    .integrations__subtitle {
         font-size: 17px;
         margin-top: 10px;
         text-align: center;
         padding-bottom: 15px;
     }
 }
+*/
+
+.integrations__analytics {
+    margin-top: 60px;
+}
 @media (max-width: 576px) {
-    .integration__subtitle {
-        font-size: 14px;
-        margin-top: 5px;
-        text-align: center;
-        padding-bottom: 10px;
+    .integrations__analytics {
+        margin-top: 40px;
     }
 }
-.integration__analytics, .integration__customcode, .integration__slack {
-    display: inline-block;
-    margin: -15px;
-    margin-top: -15px;
-    margin-bottom: 30px;
-}
-
-.integration__analytics__wrapper, .integration__customcode__wrapper, .integration__slack__wrapper {
+.integrations__analytics__wrapper, .integrations__Slack__wrapper, .integrations__customcode__wrapper {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding-top: 30px;
 }
-
-@media (max-width: 576px) {
-    .integration__analytics__wrapper, .integration__customcode__wrapper, .integration__slack__wrapper {
-        display: flex;
-        justify-content: space-around;
+@media (max-width: 768px) {
+    .integrations__analytics__wrapper, .integrations__Slack__wrapper, .integrations__customcode__wrapper {
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        text-align: left;
     }
 }
 
-.integration__analytics_descr, .integration__customcode_descr, .integration__slack_descr {
+.integrations__analytics__descr, .integrations__Slack_descr, .integrations__customcode_descr {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    height: 400px;
-    max-width: 800px;
-    text-align: left;
+    max-width: 58.33333%;
+    padding: 0 15px;
 }
+ @media (max-width: 768px){
+    .integrations__analytics__descr, .integrations__Slack_descr, .integrations__customcode_descr {
+     max-width: 100%;
+    }
+ }
 
-.integration__analytics_icon img {
-    display: inline-block;
-    justify-content: space-between;
-    height: 50px;
+  @media (max-width: 576px){
+    .integrations__analytics__descr, .integrations__Slack_descr, .integrations__customcode_descr {
+     padding: 0;
+    }
+  }
+
+  .integrations__analytics_icon, .integrations__Slack_icon, .integrations__customcode_icon {
+    display: flex;
+    justify-content: flex-start;
+    margin: 7px;
     width: 50px;
-    margin: 2px;
-    
-}
-.integration__analytics_image img {
-    height: 300px;
-    margin: auto;
-}
-
-.integration__customcode_icon img {
-    display: inline-block;
-    justify-content: space-between;
     height: 50px;
-    max-width: 50px;
-    margin: 2px;
-    padding-top: 5px;
+  }
+@media (max-width: 768px) {
+    .integrations__analytics_icon, .integrations__Slack_icon, .integrations__customcode_icon {
+        width: 30px;
+        height: 30px;
+    }
 }
-.integration__customcode_image img {
-    height: 300px;
-    margin: auto;
-}
-
-.integration__slack_icon img {
-    display: inline-block;
-    justify-content: space-between;
-    height: 50px;
-    width: 50px;
-    margin: 2px;
-}
-.integration__slack_image img {
-    height: 300px;
-}
-
-.integration__analytics_title, .integration__slack_title, .integration__customcode_title {
-    margin-top: 5px;
-    font-family: var(--textfont);
-    font-size: 25px;
-    color: var(--title-color);
-}
-
 @media (max-width: 576px) {
-    .integration__analytics_title, .integration__slack_title, .integration__customcode_title {
+    .integrations__analytics_icon, .integrations__Slack_icon, .integrations__customcode_icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+.integrations__analytics_icon img {
+    display: block; 
+}
+.integrations__Slack_icon img {
+    display: block;
+}
+
+.integrations__customcode_icon img {
+    display: block;
+}
+
+.integrations__analytics_text, .integrations__Slack_text, .integrations__customcode_text {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+}
+.integrations__analytics_image, .integrations__Slack_image, .integrations__customcode_image {
+    max-width: 41.66667%;
+    padding: 0 15px;
+}
+@media (max-width: 768px) {
+    .integrations__analytics_image, .integrations__Slack_image, .integrations__customcode_image {
+        max-width: 80%;
+    }
+}
+.integrations__analytics_image img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.integrations__Slack_image img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.integrations__customcode_image img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.integrations__analytics_title, .integrations__Slack_title, .integrations__customcode_title {
+    font-size: 26px;
+    line-height: 36px;
+    font-family: var(--textfont);
+    color: var(--title-color);
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .integrations__analytics_title, .integrations__Slack_title, .integrations__customcode_title {
+        font-size: 23px;
+    }
+}
+@media (max-width: 576px) {
+    .integrations__analytics_title, .integrations__Slack_title, .integrations__customcode_title {
         font-size: 17px;
         line-height: 25px;
-        text-align: left;
-        display: flex;
-        justify-content: space-around;
     }
 }
-
-.integration__analytics_about, .integration__slack_about, .integration__customcode_about {
-    margin-top: 25px;
+.integrations__analytics_about, .integrations__Slack_about, .integrations__customcode_about {
+    margin-top: 30px;
     font-family: var(--textfont);
     font-size: 17px;
     color: var(--text-color);
 }
-
-@media (max-width: 976px) {
-    .integration__analytics_about, .integration__slack_about, .integration__customcode_about {
+@media (max-width: 576px) {
+    .integrations__analytics_about, .integrations__Slack_about, .integrations__customcode_about {
         margin-top: 20px;
         font-size: 16px;
-        text-align: left;
-        display: flex;
-        justify-content: space-around;
     }
 }
-.integration__slack {
+.customcode_paragraph {
+    color:var(--title-color);
+    font-weight: 400;
+    font-style: italic;
+}
+.integrations__Slack {
     padding: 40px 0;
 }
- .customcode_paragraph {
-    font-weight: 400;
-    color: var(--firstcolor);
-    font-family: var(--textfont);
-    font-style: italic;
- }
