@@ -49,17 +49,6 @@
     }
 }
 
-/*
-@media (max-width: 768px) {
-    .integrations__subtitle {
-        font-size: 17px;
-        margin-top: 10px;
-        text-align: center;
-        padding-bottom: 15px;
-    }
-}
-*/
-
 .integrations__analytics {
     margin-top: 60px;
 }
